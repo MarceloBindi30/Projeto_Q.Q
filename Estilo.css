@@ -1,0 +1,109 @@
+html {
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+body {
+	background: #8FED93;
+}
+
+#divMain{
+	margin: auto;
+    width: 50%;
+    padding: 10px;
+	display:table;
+}
+#titleDiv{
+	justify-content: center;
+	align-items: center;
+	margin-top: 5%;
+	vertical-align:middle;
+}
+
+#txtLogin{
+	margin: auto;
+    width: 30%;
+    padding: 10px;
+	display:table-cell;
+	position:absolute;
+	}
+#txtPassword{
+	margin: auto;
+    width: 30%;
+    padding: 10px;
+	display:table-cell;
+	position:absolute;
+	margin-top:5%;
+	}
+#loginDiv{
+	justify-content: center;
+	align-items: center;
+	margin-top: 5%;
+	vertical-align:middle;
+   }
+
+#cadastro{
+  width: 420px;
+  height: 360px;   
+  margin: auto;
+  background: #f7f7f7;
+  text-align: center;
+  justify-content: center;
+}
+
+
+#login{
+	width: 420px;
+	height: 40px;   
+	margin: auto;
+	background: #f7f7f7;
+	text-align: center;
+	justify-content: center;
+  }
+
+#fundo{
+	background-image: url("teste.png");
+	height: 880px;
+	background-size: cover;
+	background-position: center;
+}
+
+#perfil{
+		width: 420px;
+		height: 360px;   
+		background: #f7f7f7;
+		text-align: center;
+		justify-content: center;
+}
+
+#perfil2{
+	width: 420px;
+	height: 360px;   
+	margin: auto;
+	background: #f7f7f7;
+	text-align: center;
+	justify-content: center;
+  }
+
+  #comentarios{
+	width: 820px;
+	height: 1020px;   
+	margin: auto;
+	background: #ffffff;
+	text-align: center;
+	justify-content: center;
+  }
+  #Perfis{
+	width: 100px;
+	height: 50px;   
+	margin:left;
+	background: #d4f1d6;
+	text-align: left;
+	justify-content: center;
+  }
+  #Balão{
+	width: 100px;
+	height: 100px;   
+	margin:auto;
+	background: #d4f1d6;
+	text-align: left;
+	justify-content: center;
