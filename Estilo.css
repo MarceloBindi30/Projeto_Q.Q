@@ -221,6 +221,13 @@ img.foto{
 	justify-content: center;
 }
 
+#descad{
+
+	margin: auto;
+	text-align: center ;
+	justify-content: center;
+}
+
 #gerenciamento{
 	width: 420px;
 	height: 600px;   
