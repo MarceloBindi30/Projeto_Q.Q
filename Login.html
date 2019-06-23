@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Formulário de Login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" type="text/css" href="Estilo.css" />
+</head>
+<body>
+  <div class="container" >
+    <a class="links" id="paracadastro"></a>
+    <a class="links" id="paralogin"></a>
+     
+      <!--FORMULÁRIO DE LOGIN-->
+
+     <div>
+        <img class= "displayed" src="Logo qqhouve.png" alt="QQHouve_Logo" width=240px height=240px  />
+     </div>
+
+      <div id="login">
+        <form method="post" action="">
+          <h1>______________________</h1>
+          <h1> Login </h1>
+          <p> 
+            <label for="nome_login">Seu nome</label>
+            <input id="nome_login" name="nome_login" required="required" type="text" />
+          </p>
+           
+          <p> 
+            <label for="senha_login">Sua senha</label>
+            <input id="prontuario" name="prontuario" required="required" type="password"  /> 
+          </p>
+           
+          <p> 
+            <input type="checkbox" name="manterLogado" id="manterLogado" value="" /> 
+            <label for="manterLogado">Manter-me logado</label>
+          </p>
+           
+          <p> 
+            <input type="submit" value="Logar" /> 
+          </p>
+          
+          <p class = "link">
+            <a href=""> Acesso Restrito </a>
+          </p>
+
+          
+          <div class="acesso-flex">
+            <div id="acesso">
+    
+                <form method="post" action="">
+                  <p>
+                  <u> Chave de acesso </u>        
+                </p>
+                   
+                  <p> 
+                    <input id="chave" name="chave" required="required" style="margin: 10px" type="password" />
+                  </p>
+
+                  <p> 
+                    <input type="submit" value="Confirmar" /> 
+                    <input type="submit" value="Cancelar" />
+                  </p>
+                  
+                </form>
+              </div>
+            </div>
+           
+
+          <h1>______________________</h1>
+        </form>
+      </div>
+
+    </div>  
+</body>

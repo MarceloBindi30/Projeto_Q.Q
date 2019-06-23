@@ -1,9 +1,12 @@
 html {
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
+	font-family: 'Times New Roman', Times, serif;
 }
 body {
-	background: #8FED93;
+	
+	background: lightblue;
+	background-image: url("teste.png");
 }
 
 #divMain{
@@ -42,22 +45,26 @@ body {
    }
 
 #cadastro{
-  width: 420px;
-  height: 360px;   
+  width: 500px;
+  height: 500px;   
   margin: auto;
   background: #f7f7f7;
   text-align: center;
   justify-content: center;
+  border: 2px solid  darkblue;
+
 }
 
 
 #login{
-	width: 420px;
-	height: 240px;   
+	width: 400px;
+	height: 400px;   
 	margin: auto;
 	background: #f7f7f7;
 	text-align: center;
 	justify-content: center;
+	border: 2px solid  darkblue;
+
   }
 
 #fundo{
@@ -68,129 +75,186 @@ body {
 }
 
 #perfil{
+		
+
+	margin-right: 0%;
 		width: 420px;
-		height: 360px;   
+		height: 560px;   
 		background: #f7f7f7;
 		text-align: center;
 		justify-content: center;
+		border: 2px solid  darkblue;
+	    
+	    display: flex;
 }
 
-#perfil2{
+#perfilpt2{
 	width: 420px;
-	height: 360px;   
-	margin: auto;
+	height: 600px;   
 	background: #f7f7f7;
 	text-align: center;
 	justify-content: center;
   }
 
-  #comentarios{
-	width: 820px;
-	height: 1020px;   
-	margin: auto;
-	background: #ffffff;
-	text-align: center;
-	justify-content: center;
-  }
-  #Perfis{
-	width: 100px;
-	height: 50px;   
-	margin:left;
-	background: #d4f1d6;
-	text-align: left;
-	justify-content: center;
-  }
-  #Balão{
-	width: 100px;
-	height: 100px;   
-	margin:auto;
-	background: #d4f1d6;
-	text-align: left;
-	justify-content: center;
-  }
-*{ margin: 0;
-	 padding: 0;
-	  box-sizing: border-box; 
-	}
-
-.menu {
-	 background: white; 
-	 padding: 20px 0; 
+  .perfil-flex{
+	margin-right: 20%;
+	display:flex;
+  
 }
 
-.button {
-	display: inline;
-	margin: 0 20px;
-	background: white;
-	top: 0;
-	color: green;
-	border: 0;
-	cursor: pointer;
+.perfilpt2-flex{
+	
+    margin-left: 20%;
+	border: 2px solid  darkblue;
+	
+	display: flex;
+  
+}
+
+.X{
+	background-color: red;
+	border-radius: 50%;
+	
+	
+}
+
+.Visualizar{
+	background-color: rgb(67, 230, 67);
+	
+}
+
+.mais{
+	background-color: rgb(67, 230, 67);
+	font-size: 15px;
+	border-radius: 50%;
+
+}
+
+.VMP{
+	
+	background-color: rgb(76, 219, 171);
+
+}
+
+img.displayed{
+
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+img.foto{
+
+		border-radius: 50%;
+
+}
+
+.nome_perfil{
+
+	font-size: 30px;
+}
+
+.email_login{
+
 	font-size: 20px;
 }
 
-.modalLogin {
-	display:none;
-	position: fixed;
-	z-index: 1;
-	left: 0;
-	top: 0;
-	height: 100%;
-	width: 100%;
-	background-color: rgba(0, 0, 0, 0.5);
-}
-.modalCadastro {
-	display:none;
-	position: fixed;
-	z-index: 2;
-	left: 0;
-	top: 0;
-	height: 100%;
-	width: 100%;
-	overflow: auto;
-	background-color: rgba(0, 0, 0, 0.5);
+#deletar{
+
+	margin: auto;
+	width: auto;
+	height: auto;   
+	background: #f7f7f7;
+	text-align: center ;
+	justify-content: center;
+
+	
 }
 
-.modal-content-Login {
-	margin: 10% auto;	;
-	width: 420px;
-	height: 360px;
-	box-shadow: 0 5px 8px 0 rgba(0, 0 ,0, 0.2), 0 7px 20px 0 rgba(0, 0 ,0, 0.17);
-}
-.modal-content-Cadastro {
-	margin: 10% auto;	;
-	width: 420px;
-	height: 360px;
-	box-shadow: 0 5px 8px 0 rgba(0, 0 ,0, 0.2), 0 7px 20px 0 rgba(0, 0 ,0, 0.17);
+.deletar-flex{
+	
+	margin-left: 20%;
+	margin-right: 20%;
+	border: 2px solid  darkred;
+	
+	display: flex;
+  
 }
 
-.modal-header h2 {
-	margin: 1% 10%;
+.cancelar{
+
+	background-color: red;
 }
 
-.modal-header {
-	background : blue;
-	padding: 15px;
-	color: #fff;
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
+#descricao{
+
+  width: 420px;
+  height: 520px;   
+  margin: auto;
+  background: #f7f7f7;
+  text-align: center;
+  justify-content: center;
+  border: 2px solid  darkblue;
+
 }
 
-.modal-body {
-	padding: 10px 20px;
-	background: #fff;
-}
-
-.close {
-	color: #ccc;
-	float: right;
+#title{
 	font-size: 30px;
-	cursor: pointer;
-}
-.close2 {
-	color: #ccc;
-	float: right;
-	font-size: 30px;
-	cursor: pointer;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: underline black;
+	text-align: center ;
+	justify-content: center;
+
 }
 
+#descvs{
+	margin: auto;
+	text-align: center ;
+	justify-content: center;
+	font-weight: bolder;
+}
+
+#desced{
+	margin: auto;
+	text-align: center ;
+	justify-content: center;
+}
+
+#gerenciamento{
+	width: 420px;
+	height: 600px;   
+	background: #f7f7f7;
+	text-align: center;
+	justify-content: center;
+	border: 2px solid  darkblue;
+
+}
+
+.gerenciamento-flex{
+
+	margin-left: 20%;
+	
+	display: flex;
+}
+
+#acesso{
+	margin: auto;
+	width: auto;
+	height: auto;   
+	background: #f7f7f7;
+	text-align: center ;
+	justify-content: center;
+	border: 2px solid  rgb(49, 48, 48);
+	
+
+}
+
+.acesso-flex{
+
+	margin-bottom: 80%;
+	margin-left: 70%;
+	margin-right: 70%;
+
+	display: flex;
+}

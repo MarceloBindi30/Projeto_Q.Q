@@ -10,7 +10,7 @@
         <form method="post" action="">
 
             <div>
-              <img src="Logo qqhouve.png" alt="QQHouve_Logo" width=240px height=240px  />
+              <img class= "displayed" src="Logo qqhouve.png" alt="QQHouve_Logo" width=240px height=240px  />
             </div>
 
          <div id = "cadastro">
@@ -20,19 +20,37 @@
 
           <p> 
             <label for="nome_cad">Seu nome</label>
-            <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="nome" />
+            <input id="nome_cad" name="nome_cad" required="required" type="text" />
           </p>
            
           <p> 
-            <label for="prontuario_cad">Sua prontuario</label>
-            <input id="prontuario_cad" name="prontuario_cad" required="required" type="text" placeholder="ex. 1234567"/>
+            <label for="email_cad">Seu email</label>
+            <input id="email_cad" name="email_cad" required="required" type="text" placeholder="examplo@gmail.com"/>
           </p>
+
+          <p> 
+              <label for="senha_cad">Criar senha</label>
+              <input id="senha_cad" name="email_cad" required="required" minlength="4" maxlength="10" type="password" />
+            </p>
+
+            <p> 
+                <label for="conf_senha_cad">Confirmar senha</label>
+                <input id="conf_senha_cad" name="email_cad" required="required" minlength="4" maxlength="10" type="password" />
+              </p>
            
+              
+              <br />
+             
+
           <p> 
             <input type="submit" value="Cancelar"/> 
             <input type="submit" value="Cadastrar"/> 
+            <input type="submit" value="Inserir foto"/> 
+
           </p>
-          
+      
+
+
           <p class="link">  
             Já tem conta?
             <a href=""> Ir para Login </a>
@@ -42,4 +60,8 @@
       </div>
     </div>
   </body>
+
+  
+  
+    
 
